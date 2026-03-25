@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignalDesk AI — Your Revenue Command Center</title>
+    <meta
+      name="description"
+      content="SignalDesk AI turns noisy customer signals into immediate revenue actions. Launch your micro SaaS with Stripe-powered subscriptions in minutes."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <header class="nav">
+      <div class="logo">⚡ SignalDesk AI</div>
+      <a href="#pricing" class="ghost-button">See pricing</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Built for creators, agencies, and solo founders</p>
+        <h1>
+          The micro SaaS that <span>finds hidden money</span> in your customer
+          data.
+        </h1>
+        <p class="subtext">
+          SignalDesk AI scans inbound messages, support tickets, and CRM events,
+          then suggests high-converting actions you can launch in one click.
+        </p>
+        <div class="hero-cta">
+          <a href="#pricing" class="primary-button">Start monetizing</a>
+          <a href="#how" class="secondary-button">How it works</a>
+        </div>
+        <div class="social-proof">
+          <span>Trusted by 2,100+ operators</span>
+          <span>•</span>
+          <span>Average +19% MRR uplift in 45 days</span>
+        </div>
+      </section>
+
+      <section id="how" class="feature-grid">
+        <article class="feature-card">
+          <h3>Signal Mining</h3>
+          <p>
+            Detect churn risk, upsell intent, and reactivation opportunities from
+            plain-language customer communication.
+          </p>
+        </article>
+        <article class="feature-card">
+          <h3>Action Playbooks</h3>
+          <p>
+            Get ready-to-send offers, email sequences, and pricing tests tailored
+            to each segment.
+          </p>
+        </article>
+        <article class="feature-card">
+          <h3>Revenue Radar</h3>
+          <p>
+            Track money won from each playbook with clean attribution and weekly
+            strategy snapshots.
+          </p>
+        </article>
+      </section>
+
+      <section id="pricing" class="pricing-wrap">
+        <div class="pricing-header">
+          <p class="eyebrow">Simple subscription plans</p>
+          <h2>Pick your growth velocity</h2>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>Starter</h3>
+            <p class="price">$29<span>/month</span></p>
+            <ul>
+              <li>Up to 1,000 signals/month</li>
+              <li>3 AI playbooks</li>
+              <li>Email support</li>
+            </ul>
+            <button data-plan="starter" class="checkout-btn">Get Starter</button>
+          </article>
+
+          <article class="price-card featured">
+            <div class="pill">Most popular</div>
+            <h3>Pro</h3>
+            <p class="price">$99<span>/month</span></p>
+            <ul>
+              <li>Up to 10,000 signals/month</li>
+              <li>Unlimited playbooks</li>
+              <li>Priority support</li>
+            </ul>
+            <button data-plan="pro" class="checkout-btn">Get Pro</button>
+          </article>
+
+          <article class="price-card">
+            <h3>Scale</h3>
+            <p class="price">$299<span>/month</span></p>
+            <ul>
+              <li>Up to 100,000 signals/month</li>
+              <li>Dedicated success strategist</li>
+              <li>Advanced analytics export</li>
+            </ul>
+            <button data-plan="scale" class="checkout-btn">Get Scale</button>
+          </article>
+        </div>
+        <p id="status" class="status"></p>
+      </section>
+    </main>
+
+    <footer class="footer">© <span id="year"></span> SignalDesk AI</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
